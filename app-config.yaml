@@ -39,7 +39,7 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: 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
+      token: ${GITHUB_TOKEN}
     - host: ghe.example.net
       apiBaseUrl: https://ghe.example.net/api/v3
       rawBaseUrl: https://ghe.example.net/raw
